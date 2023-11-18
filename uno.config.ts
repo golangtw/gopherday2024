@@ -2,10 +2,10 @@ import { defineConfig, presetUno, transformerDirectives, transformerVariantGroup
 
 export default defineConfig({
   presets: [
-    presetUno(),
+    presetUno()
   ],
   transformers: [
     transformerDirectives(),
-    transformerVariantGroup(),
-  ],
+    transformerVariantGroup()
+  ]
 })
