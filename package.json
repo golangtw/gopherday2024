@@ -11,12 +11,19 @@
     "lint": "eslint ."
   },
   "devDependencies": {
+    "@iconify-json/tabler": "^1.1.96",
     "@nuxt/devtools": "latest",
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
     "@unocss/nuxt": "^0.57.5",
+    "@vueuse/core": "^10.6.1",
+    "@vueuse/nuxt": "^10.6.1",
     "eslint": "^8.54.0",
     "nuxt": "^3.8.1",
     "vue": "^3.3.8",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@nuxt/image": "^1.0.0",
+    "@splinetool/runtime": "^0.9.506"
   }
 }
