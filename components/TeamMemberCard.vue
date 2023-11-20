@@ -14,7 +14,7 @@ withDefaults(defineProps<Partial<GroupMember> & {
       <div class="w-18 h-18 p-2.5 bg-white rounded-[40px] border border-sky-200 border-dashed flex-col justify-center items-center gap-2.5 inline-flex">
         <div class="i-tabler-plus text-sky-300 text-3xl" />
       </div>
-      <div class="text-sky-300">
+      <div class="text-sky-300 text-sm">
         加入
       </div>
     </template>
