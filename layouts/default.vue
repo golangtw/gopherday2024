@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import '@unocss/reset/tailwind.css'
 const showMenu = ref(false)
 
 const router = useRouter()
@@ -88,7 +87,3 @@ router.afterEach(() => {
     </footer>
   </div>
 </template>
-
-<style>
-  /* @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,700&display=swap'); */
-</style>

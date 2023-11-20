@@ -6,6 +6,9 @@ export default defineNuxtConfig({
     '@nuxt/image'
   ],
   devtools: { enabled: false },
+  css: [
+    '@unocss/reset/tailwind.css'
+  ],
   app: {
     head: {
       charset: 'utf-8',
