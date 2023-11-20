@@ -10,9 +10,9 @@
       <NuxtLink to="/" class="font-worksans italic text-primary" active-class="text-secondary!">
         GOPHERDAY
       </NuxtLink>
-      <div class="text-primary" active-class="text-secondary!">
+      <a href="mailto:sponsor@golang.tw" class="text-primary" active-class="text-secondary!">
         贊助聯絡
-      </div>
+      </a>
       <NuxtLink to="/team" class="text-primary" active-class="text-secondary!">
         籌備團隊
       </NuxtLink>
