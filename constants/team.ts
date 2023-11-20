@@ -42,7 +42,6 @@ export const groups: Group[] = [
   },
   {
     name: '場務組',
-    isRecruiting: true,
     members: [
       { name: 'Caesar' }
     ]
