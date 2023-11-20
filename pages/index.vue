@@ -8,7 +8,7 @@ const isWindowScrollTop = computed(() => y.value === 0)
 
 onMounted(async () => {
   const app = new Application(canvas.value!)
-  await app.load('./scene.splinecode')
+  await app.load('/scene.splinecode')
 
   // prevent the blinking of canvas
   setTimeout(() => {

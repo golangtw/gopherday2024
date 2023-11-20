@@ -4,7 +4,7 @@ import { type GroupMember } from '@/constants/team'
 withDefaults(defineProps<Partial<GroupMember> & {
   recruit?: boolean
 }>(), {
-  avatar: './avatar.png'
+  avatar: '/avatar.png'
 })
 </script>
 
