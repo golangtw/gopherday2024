@@ -16,6 +16,7 @@
       <NuxtLink to="/team" class="text-primary" active-class="text-secondary!">
         籌備團隊
       </NuxtLink>
+      <I18nSwitcher />
     </div>
   </div>
 </template>
