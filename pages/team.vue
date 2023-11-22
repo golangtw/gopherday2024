@@ -1,15 +1,16 @@
 <script setup lang="ts">
 import { groups } from '~/constants/team'
+const { t } = useI18n()
 
 useHead({
-  title: '籌備團隊'
+  title: t('team')
 })
 </script>
 
 <template>
   <div class="mx-auto w-full md:w-3xl py-16 px-8">
     <h2 class="text-brand text-2xl font-semibold mb-6">
-      籌備團隊
+      {{ $t('team') }}
     </h2>
     <div class="grid flex-col gap-6">
       <div v-for="group in groups" :key="group.name">

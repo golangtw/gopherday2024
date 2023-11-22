@@ -13,7 +13,7 @@ router.afterEach(() => {
     <div class="flex flex-col sticky top-0 flex z-50">
       <div class="h-12 py-3 bg-sky-50 backdrop-blur justify-center items-center gap-2.5 inline-flex">
         <div class="text-primary">
-          廠商贊助、志工招募中！
+          {{ $t('announcement') }}
         </div>
       </div>
       <NavigationView class="hidden md:flex" />
