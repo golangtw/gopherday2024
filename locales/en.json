@@ -4,7 +4,8 @@
     "team": "Team",
     "hero": {
         "title": "Exciting agenda, stay tuned",
-        "subtitle": "The event is scheduled to be held in Taipei in mid-2024"
+        "date": "May 25, 2024",
+        "location": "Living Lab+, Taipei"
     },
     "intro": {
         "title": "Event Introduction",

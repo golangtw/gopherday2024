@@ -21,7 +21,7 @@ onMounted(async () => {
   <div class="flex flex-col">
     <div class="w-full <md:py-10 md:h-[calc(100vh-8rem)] flex flex-col">
       <div class="flex flex-1 justify-center items-center">
-        <div class="w-full max-h-[calc(100vh-8rem-15rem)] aspect-[2/1] relative overflow-hidden">
+        <div class="w-full max-h-[calc(100vh-8rem-18rem)] aspect-[2/1] relative overflow-hidden">
           <div v-show="!showCanvas" class="absolute top-0 left-0 w-full h-full z-10 flex justify-center">
             <NuxtImg preload src="/placeholder.png" />
           </div>
@@ -29,13 +29,16 @@ onMounted(async () => {
         </div>
       </div>
 
-      <div class="md:h-60 flex flex-col items-center">
-        <div class="flex items-center flex-col h-full py-8">
-          <div class="text-brand text-2xl md:text-3xl font-medium">
+      <div class="md:h-72 flex flex-col items-center">
+        <div class="flex items-center flex-col h-full">
+          <div class="text-brand text-2xl md:text-10 leading-12 font-medium">
             {{ $t('hero.title') }}
           </div>
-          <div class="text-gray-400 text-lg mt-1 md:(text-2xl mt-2)">
-            {{ $t('hero.subtitle') }}
+          <div class="text-xl md:text-8 my-2 md:(mt-6 mb-4) text-gray-600">
+            {{ $t('hero.date') }}
+          </div>
+          <div class="text-lg md:text-6.5 text-gray-400">
+            {{ $t('hero.location') }}
           </div>
         </div>
 
