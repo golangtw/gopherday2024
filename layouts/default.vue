@@ -1,6 +1,7 @@
 <script setup lang="ts">
 const showMenu = ref(false)
 
+const localePath = useLocalePath()
 const router = useRouter()
 router.afterEach(() => {
   showMenu.value = false
@@ -20,7 +21,7 @@ router.afterEach(() => {
 
     <div class="fixed bottom-0 w-full bg-white/75 backdrop-blur flex justify-between items-center h-12 md:hidden z-50">
       <div v-if="!showMenu" class="absolute top-0 left-0 h-px scale-y-50 content-empty w-full bg-gradient-to-r from-primary to-secondary" />
-      <NuxtLink to="/" class="font-worksans italic text-primary text-lg pl-6">
+      <NuxtLink :to="localePath('/')" class="font-worksans italic text-primary text-lg pl-6">
         <span class="text">GOPHERDAY </span>
         <span class="text">TAIWAN 2024</span>
       </NuxtLink>

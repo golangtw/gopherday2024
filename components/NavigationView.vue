@@ -1,3 +1,7 @@
+<script setup lang="ts">
+const localePath = useLocalePath()
+</script>
+
 <template>
   <div class="w-full">
     <div
@@ -7,13 +11,13 @@
       "
     >
       <div class="md:hidden absolute top-0 left-0 h-px scale-y-50 content-empty w-full bg-gradient-to-r from-primary to-secondary" />
-      <NuxtLink to="/" class="font-worksans italic text-primary" active-class="text-secondary!">
+      <NuxtLink :to="localePath('/')" class="font-worksans italic text-primary" active-class="text-secondary!">
         GOPHERDAY
       </NuxtLink>
       <a href="mailto:sponsor@golang.tw" class="text-primary" active-class="text-secondary!">
         贊助聯絡
       </a>
-      <NuxtLink to="/team" class="text-primary" active-class="text-secondary!">
+      <NuxtLink :to="localePath('/team')" class="text-primary" active-class="text-secondary!">
         籌備團隊
       </NuxtLink>
       <I18nSwitcher />
