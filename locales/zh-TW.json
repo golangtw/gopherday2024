@@ -1,0 +1,13 @@
+{
+    "announcement": "廠商贊助、志工招募中！",
+    "sponsor": "贊助聯絡",
+    "team": "籌備團隊",
+    "hero": {
+        "title": "精彩議程，敬請期待",
+        "subtitle": "活動預計將在 2024 年中旬於台北舉辦"
+    },
+    "intro": {
+        "title": "活動介紹",
+        "content": "GopherDay 作為 GopherCon 的衍生小型活動，由 Golang Taiwan 社群精心籌備。這個活動旨在聚集對 Golang 程式語言和相關技術有濃厚興趣的軟體從業人員和愛好者。GopherDay 提供一個互動和學習的平台，讓參與者可以深入了解 Golang 的最新發展、技術創新以及最佳實踐。\n\n在 GopherDay，我們邀請各行各業的 Golang 使用者分享他們的知識和經驗。無論您是 Golang 的新手或是資深開發者，都會在這裡找到適合您的內容。"
+    }
+}

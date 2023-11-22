@@ -32,10 +32,10 @@ onMounted(async () => {
       <div class="md:h-60 flex flex-col items-center">
         <div class="flex items-center flex-col h-full py-8">
           <div class="text-brand text-2xl md:text-3xl font-medium">
-            精彩議程，敬請期待
+            {{ $t('hero.title') }}
           </div>
           <div class="text-gray-400 text-lg mt-1 md:(text-2xl mt-2)">
-            活動預計將在 2024 年中旬於台北舉辦
+            {{ $t('hero.subtitle') }}
           </div>
         </div>
 
@@ -64,7 +64,7 @@ onMounted(async () => {
         <a href="mailto:sponsor@golang.tw" class="w-50 h-14 md:h-18 rounded-2xl border-1 border-dashed border-primary justify-center items-center flex gap-2">
           <div class="i-tabler-heart-handshake text-pink-500 text-2xl" />
           <div class="text-primary font-semibold">
-            贊助聯絡
+            {{ $t('sponsor') }}
           </div>
         </a>
 
@@ -80,15 +80,10 @@ onMounted(async () => {
 
     <div class="mx-auto w-full md:w-3xl py-16 px-8">
       <h2 class="text-brand text-2xl font-semibold mb-6">
-        活動介紹
+        {{ $t('intro.title') }}
       </h2>
-      <div class="text-sky-700 text-lg leading-8 w-full">
-        <p class="my-4">
-          GopherDay 作為 GopherCon 的衍生小型活動，由 Golang Taiwan 社群精心籌備。這個活動旨在聚集對 Golang 程式語言和相關技術有濃厚興趣的軟體從業人員和愛好者。GopherDay 提供一個互動和學習的平台，讓參與者可以深入了解 Golang 的最新發展、技術創新以及最佳實踐。
-        </p>
-        <p class="my-4">
-          在 GopherDay，我們邀請各行各業的 Golang 使用者分享他們的知識和經驗。無論您是 Golang 的新手或是資深開發者，都會在這裡找到適合您的內容。
-        </p>
+      <div class="text-sky-700 text-lg leading-8 w-full whitespace-pre-line">
+        {{ $t('intro.content') }}
       </div>
     </div>
   </div>
