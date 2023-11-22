@@ -15,8 +15,8 @@ useHead({
     <div class="grid flex-col gap-6">
       <div v-for="group in groups" :key="group.name">
         <h3 class="text-gray-300 font-semibold">
-          <div class="text-gradient-primary op-80">
-            {{ group.name }}
+          <div v-if="group.name" class="text-gradient-primary op-80">
+            {{ $t("teams." + group.name) }}
           </div>
         </h3>
         <div class="flex flex-wrap gap-6">

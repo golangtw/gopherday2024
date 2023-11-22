@@ -13,14 +13,14 @@ export interface Group {
 
 export const groups: Group[] = [
   {
-    name: '',
+    name: 'general_coordinator',
     members: [
-      { name: 'GTB', isLeader: true, remark: '總召' },
-      { name: 'David', remark: '副總召' }
+      { name: 'GTB', isLeader: true },
+      { name: 'David' }
     ]
   },
   {
-    name: '議程組',
+    name: 'agenda',
     members: [
       { name: 'Edward', isLeader: true },
       { name: 'Phoebe', isLeader: true },
@@ -32,7 +32,7 @@ export const groups: Group[] = [
     ]
   },
   {
-    name: '贊助組',
+    name: 'sponsorship',
     members: [
       { name: 'Licky', isLeader: true },
       { name: 'Kakashi' },
@@ -41,20 +41,20 @@ export const groups: Group[] = [
     ]
   },
   {
-    name: '場務組',
+    name: 'venue_management',
     members: [
       { name: 'Caesar' }
     ]
   },
   {
-    name: '攝影組',
+    name: 'photography',
     members: [
       { name: '孝玠', isLeader: true },
       { name: 'Calvin Lin' }
     ]
   },
   {
-    name: '開發組',
+    name: 'development',
     members: [
       { name: 'SerKo', isLeader: true },
       { name: 'Edward' },
@@ -62,7 +62,7 @@ export const groups: Group[] = [
     ]
   },
   {
-    name: '設計組',
+    name: 'design',
     members: [
       { name: 'SerKo', isLeader: true },
       { name: 'Peizhen' },
@@ -71,7 +71,7 @@ export const groups: Group[] = [
     ]
   },
   {
-    name: '公關組',
+    name: 'public_relations',
     members: [
       { name: '耿映翔', isLeader: true },
       { name: 'Gobby', isLeader: true },
@@ -81,7 +81,7 @@ export const groups: Group[] = [
     ]
   },
   {
-    name: 'HR 組',
+    name: 'human_resources',
     members: [
       { name: '韓吉', isLeader: true },
       { name: '耿映翔' }

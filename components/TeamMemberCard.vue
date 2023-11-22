@@ -32,7 +32,7 @@ withDefaults(defineProps<Partial<GroupMember> & {
         <div class="text-gray-500 text-sm font-semibold">
           {{ name }}
         </div>
-        <div class="text-secondary text-xs font-normal">
+        <div v-if="remark" class="text-secondary text-xs font-normal">
           {{ remark }}
         </div>
       </div>

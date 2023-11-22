@@ -10,5 +10,16 @@
     "intro": {
         "title": "Event Introduction",
         "content": "GopherDay, a smaller event derived from GopherCon, is meticulously organized by the Golang Taiwan community. This event aims to bring together software professionals and enthusiasts who have a strong interest in the Golang programming language and related technologies. GopherDay provides an interactive and learning platform, allowing participants to delve into the latest developments, technological innovations, and best practices in Golang.\n\nAt GopherDay, we invite Golang users from various industries to share their knowledge and experiences. Whether you are a newcomer to Golang or a seasoned developer, you will find content that suits you here."
+    },
+    "teams": {
+        "general_coordinator": "General Coordinator",
+        "agenda": "Program",
+        "sponsorship": "Sponsorship",
+        "venue_management": "Venue Management",
+        "photography": "Photography",
+        "development": "Development",
+        "design": "Design",
+        "public_relations": "Public Relations",
+        "human_resources": "Human Resources"
     }
 }
