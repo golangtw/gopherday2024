@@ -8,6 +8,7 @@
       allowfullscreen
       loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"
+      class="rounded-xl"
     />
     <div class="flex w-full flex-col gap-3 sm:(flex-row justify-between) mt-4">
       <div>
