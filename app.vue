@@ -13,6 +13,7 @@ const description = computed(() => t(route.meta.description as string ?? 'descri
 useHead({
   title,
   meta: [
+    { property: 'description', content: description },
     { property: 'og:title', content: title },
     { property: 'og:description', content: description }
   ]

@@ -15,6 +15,7 @@ export default defineNuxtConfig({
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
       meta: [
+        { property: 'keywords', content: 'GopherDay, Golang, Go, Taiwan, Conference, 2024' },
         { property: 'og:type', content: 'website' },
         { property: 'og:site_name', content: 'GopherDay Taiwan 2024' },
         { property: 'og:image', content: 'https://gopherday.golang.tw/2024/banner.png' },
