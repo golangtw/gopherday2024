@@ -11,10 +11,10 @@ router.afterEach(() => {
 <template>
   <div class="font-sans flex flex-col">
     <div class="flex flex-col sticky top-0 flex z-50">
-      <div class="h-12 py-3 bg-sky-50 backdrop-blur justify-center items-center gap-2.5 inline-flex">
-        <div class="text-primary">
+      <div class="h-12 py-3 bg-amber-50/90 backdrop-blur justify-center items-center gap-2.5 inline-flex">
+        <a class="text-secondary font-medium" href="mailto:sponsor@golang.tw">
           {{ $t('announcement') }}
-        </div>
+        </a>
       </div>
       <NavigationView class="hidden md:flex" />
     </div>
