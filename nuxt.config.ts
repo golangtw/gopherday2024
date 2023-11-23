@@ -13,11 +13,19 @@ export default defineNuxtConfig({
   app: {
     head: {
       charset: 'utf-8',
-      viewport: 'width=device-width, initial-scale=1'
+      viewport: 'width=device-width, initial-scale=1',
+      meta: [
+        { property: 'og:type', content: 'website' },
+        { property: 'og:site_name', content: 'GopherDay Taiwan 2024' },
+        { property: 'og:image', content: 'https://gopherday.golang.tw/2024/banner.png' },
+        { property: 'og:image:width', content: '2322' },
+        { property: 'og:image:height', content: '1294' }
+      ]
     },
     baseURL: '/2024/'
   },
   i18n: {
+    baseUrl: 'https://gopherday.golang.tw/2024',
     defaultLocale: 'zh-TW',
     locales: [
       {
