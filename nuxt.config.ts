@@ -20,7 +20,9 @@ export default defineNuxtConfig({
         { property: 'og:site_name', content: 'GopherDay Taiwan 2024' },
         { property: 'og:image', content: 'https://gopherday.golang.tw/2024/og.png' },
         { property: 'og:image:width', content: '1200' },
-        { property: 'og:image:height', content: '630' }
+        { property: 'og:image:height', content: '630' },
+        { property: 'twitter:card', content: 'summary_large_image' },
+        { property: 'twitter:image', content: 'https://gopherday.golang.tw/2024/og.png' }
       ]
     },
     baseURL: '/2024/'
