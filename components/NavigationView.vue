@@ -17,6 +17,9 @@ const localePath = useLocalePath()
       <a href="mailto:sponsor@golang.tw" class="text-primary" active-class="text-secondary!">
         {{ $t('sponsor') }}
       </a>
+      <NuxtLink :to="localePath('/map')" class="text-primary" active-class="text-secondary!">
+        {{ $t('map.title') }}
+      </NuxtLink>
       <NuxtLink :to="localePath('/team')" class="text-primary" active-class="text-secondary!">
         {{ $t('team') }}
       </NuxtLink>
