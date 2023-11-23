@@ -1,8 +1,6 @@
 <script setup lang="ts">
-const { t } = useI18n()
-
-useHead({
-  title: t('map.title')
+definePageMeta({
+  title: 'map.title'
 })
 </script>
 

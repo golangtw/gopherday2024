@@ -1,9 +1,8 @@
 <script setup lang="ts">
 import { groups } from '~/constants/team'
-const { t } = useI18n()
 
-useHead({
-  title: t('team')
+definePageMeta({
+  title: 'team'
 })
 </script>
 
