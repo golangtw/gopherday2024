@@ -11,16 +11,16 @@ const localePath = useLocalePath()
       "
     >
       <div class="md:hidden absolute top-0 left-0 h-px scale-y-50 content-empty w-full bg-gradient-to-r from-primary to-secondary" />
-      <NuxtLink :to="localePath('/')" class="font-worksans italic text-primary" active-class="text-secondary!">
+      <NuxtLink :to="localePath('/')" class="font-worksans italic text-primary hover:text-brand" active-class="text-secondary!">
         GOPHERDAY
       </NuxtLink>
-      <a href="mailto:sponsor@golang.tw" class="text-primary" active-class="text-secondary!">
+      <a href="mailto:sponsor@golang.tw" class="text-primary hover:text-brand" active-class="text-secondary!">
         {{ $t('sponsor') }}
       </a>
-      <NuxtLink :to="localePath('/map')" class="text-primary" active-class="text-secondary!">
+      <NuxtLink :to="localePath('/map')" class="text-primary hover:text-brand" active-class="text-secondary!">
         {{ $t('map.title') }}
       </NuxtLink>
-      <NuxtLink :to="localePath('/team')" class="text-primary" active-class="text-secondary!">
+      <NuxtLink :to="localePath('/team')" class="text-primary hover:text-brand" active-class="text-secondary!">
         {{ $t('team') }}
       </NuxtLink>
       <I18nSwitcher />
