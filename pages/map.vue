@@ -1,3 +1,11 @@
+<script setup lang="ts">
+const { t } = useI18n()
+
+useHead({
+  title: t('map.title')
+})
+</script>
+
 <template>
   <div class="mx-auto w-full md:w-3xl my-16 px-8">
     <h2 class="text-brand text-2xl font-semibold mb-6">
