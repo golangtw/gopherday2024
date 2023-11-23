@@ -24,7 +24,7 @@ onMounted(async () => {
       <div class="flex flex-1 justify-center items-center">
         <div class="w-full max-h-[calc(100vh-8rem-18rem)] aspect-[2/1] relative overflow-hidden">
           <div v-show="!showCanvas" class="absolute top-0 left-0 w-full h-full z-10 flex justify-center">
-            <NuxtImg preload src="/placeholder.png" />
+            <NuxtImg preload src="/banner.png" />
           </div>
           <canvas ref="canvas" :class="{ 'hidden!': !showCanvas}" class="absolute top-0 left-0 w-full h-full z-1 flex justify-center" />
         </div>
