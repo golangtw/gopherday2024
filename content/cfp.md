@@ -2,7 +2,7 @@
 
 # 議程徵稿
 
-## 關於 GoperDay
+## 關於 GopherDay
 
 GopherDay 為 GopherCon 的衍生小型活動，自從 GoperCon Taiwan 2020 年舉行後，Golang Taiwan 社群決定重拾當年的使命，在這個為期一天的活動中，引領全球與台灣各地的 Gopher 愛好者、獨立開發者、軟體工程師、資料科學家、DevOps 工程師聚在一起，分享他們在使用 Go 語言的有趣經驗和最佳實踐的例子。
 
