@@ -1,0 +1,19 @@
+.prose a {
+    --at-apply: text-primary;
+    text-decoration: none;
+}
+
+.prose a:hover {
+    text-decoration: underline;
+}
+
+.prose :where(h1,h2) {
+    --at-apply: text-brand;
+}
+
+.prose :where(h1,h2,h3,h4,h5,h6) a {
+    border-bottom: none !important;
+    text-decoration: none !important;
+    color: inherit;
+    font-weight: inherit;
+}
