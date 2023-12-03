@@ -1,4 +1,6 @@
-import { defineConfig, presetUno, transformerDirectives, transformerVariantGroup, presetIcons, presetWebFonts } from 'unocss'
+import {
+  defineConfig, presetUno, transformerDirectives, transformerVariantGroup, presetIcons, presetWebFonts, presetTypography
+} from 'unocss'
 
 export default defineConfig({
   presets: [
@@ -14,7 +16,8 @@ export default defineConfig({
           italic: true
         }
       }
-    })
+    }),
+    presetTypography()
   ],
   transformers: [
     transformerDirectives(),
@@ -32,7 +35,7 @@ export default defineConfig({
     'bg-gradient-primary': 'bg-gradient-to-r from-sky-500 to-primary', //  from-30% to-80%
     'bg-brand': 'bg-gradient-to-r from-20% to-80% from-primary to-secondary',
 
-    'text-clip-bg': 'inline-block text-transparent bg-clip-text',
+    'text-clip-bg': 'table text-transparent bg-clip-text',
     'text-gradient-primary': 'bg-gradient-primary text-clip-bg',
     'text-brand': 'bg-brand text-clip-bg'
   }
