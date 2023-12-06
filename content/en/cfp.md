@@ -23,7 +23,7 @@ Conference date: May 25, 2024
 
 ### Location
 [Living Lab+](/en/traffic)  
-4F., No.133, Sec. 4 Minsheng E. Rd., Songshan District, Taipei City 105, Taiwan
+Area A, 2F., No. 133, Sec. 4, Minsheng E. Rd., Songshan Dist., Taipei City
 
 ### Contact
 Please send message to Edward from Program Team on [Gopher Taipei Facebook Page](https://www.facebook.com/GolangTaipeiGathering)
