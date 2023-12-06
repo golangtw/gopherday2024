@@ -46,5 +46,8 @@ export default defineNuxtConfig({
       }
     ],
     langDir: 'locales/'
+  },
+  content: {
+    contentHead: false
   }
 })
