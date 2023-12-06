@@ -18,13 +18,13 @@ const localePath = useLocalePath()
         {{ $t('sponsor') }}
       </a>
       <NuxtLink :to="localePath('/map')" class="text-primary hover:text-brand" active-class="text-secondary!">
-        {{ $t('map.title') }}
+        {{ $t('traffic') }}
       </NuxtLink>
       <NuxtLink :to="localePath('/team')" class="text-primary hover:text-brand" active-class="text-secondary!">
         {{ $t('team') }}
       </NuxtLink>
       <NuxtLink :to="localePath('/cfp')" class="text-primary hover:text-brand" active-class="text-secondary!">
-        {{ $t('cfp.title') }}
+        {{ $t('cfp') }}
       </NuxtLink>
       <I18nSwitcher />
     </div>

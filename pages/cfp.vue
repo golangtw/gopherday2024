@@ -1,6 +1,6 @@
 <script setup lang="ts">
 definePageMeta({
-  title: 'cfp.title'
+  title: 'cfp'
 })
 </script>
 

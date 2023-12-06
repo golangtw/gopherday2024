@@ -1,6 +1,6 @@
 <script setup lang="ts">
 definePageMeta({
-  title: 'map.title'
+  title: 'traffic'
 })
 </script>
 

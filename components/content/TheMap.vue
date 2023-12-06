@@ -37,7 +37,7 @@ const localePath = useLocalePath()
         >
           <div class="i-tabler:map-pin-2 text-lg" />
           <div class="font-semibold">
-            {{ $t('map.title') }}
+            {{ $t('traffic') }}
           </div>
         </NuxtLink>
       </div>
