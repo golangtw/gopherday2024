@@ -22,7 +22,7 @@ Acceptance notification: February 15, 2024
 Conference date: May 25, 2024
 
 ### Location
-[Living Lab+](/en/map)  
+[Living Lab+](/en/traffic)  
 4F., No.133, Sec. 4 Minsheng E. Rd., Songshan District, Taipei City 105, Taiwan
 
 ### Contact

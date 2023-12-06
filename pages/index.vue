@@ -38,7 +38,7 @@ onMounted(async () => {
           <div class="text-xl md:text-8 my-2 md:(mt-6 mb-4) text-gray-600">
             {{ $t('hero.date') }}
           </div>
-          <NuxtLink :to="localePath('/map')" class="text-lg md:text-6.5 text-gray-400 transition-all hover:text-secondary">
+          <NuxtLink :to="localePath('/traffic')" class="text-lg md:text-6.5 text-gray-400 transition-all hover:text-secondary">
             {{ $t('hero.location') }}
           </NuxtLink>
         </div>

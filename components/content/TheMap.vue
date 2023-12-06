@@ -32,7 +32,7 @@ const localePath = useLocalePath()
 
       <div v-if="showMapLink" class="flex-shrink-0 flex sm:(items-center justify-end)">
         <NuxtLink
-          :to="localePath('/map')"
+          :to="localePath('/traffic')"
           class="rounded-lg bg-primary/10 text-primary px-4 py-2.5 flex items-center gap-2 hover:bg-primary/20 transition-all w-full justify-center"
         >
           <div class="i-tabler:map-pin-2 text-lg" />
