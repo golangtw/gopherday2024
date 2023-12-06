@@ -83,31 +83,7 @@ onMounted(async () => {
     </div>
 
     <div class="mx-auto w-full md:w-3xl my-16 px-8">
-      <h2 class="text-brand text-2xl font-semibold mb-6">
-        {{ $t('intro.title') }}
-      </h2>
-      <div class="text-gray-500 text-lg leading-8 w-full whitespace-pre-line">
-        {{ $t('intro.content') }}
-      </div>
-    </div>
-
-    <div class="mx-auto w-full md:w-3xl my-16 px-8">
-      <h2 class="text-brand text-2xl font-semibold mb-6">
-        {{ $t('location.info') }}
-      </h2>
-      <TheMap>
-        <div class="flex-shrink-0 flex sm:(items-center justify-end)">
-          <NuxtLink
-            :to="localePath('/map')"
-            class="rounded-lg bg-primary/10 text-primary px-4 py-2.5 flex items-center gap-2 hover:bg-primary/20 transition-all w-full justify-center"
-          >
-            <div class="i-tabler:map-pin-2 text-lg" />
-            <div class="font-semibold">
-              {{ $t('map.title') }}
-            </div>
-          </NuxtLink>
-        </div>
-      </TheMap>
+      <TheProse />
     </div>
   </div>
 </template>

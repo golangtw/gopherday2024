@@ -1,17 +1,17 @@
-.prose a {
+.prose a:not(:where(.not-prose,.not-prose *)) {
     --at-apply: text-primary;
     text-decoration: none;
 }
 
-.prose a:hover {
+.prose a:hover:not(:where(.not-prose,.not-prose *)) {
     text-decoration: underline;
 }
 
-.prose :where(h1,h2) {
+.prose :where(h1,h2):not(:where(.not-prose,.not-prose *)) {
     --at-apply: text-brand;
 }
 
-.prose :where(h1,h2,h3,h4,h5,h6) a {
+.prose :where(h1,h2,h3,h4,h5,h6) a:not(:where(.not-prose,.not-prose *)) {
     border-bottom: none !important;
     text-decoration: none !important;
     color: inherit;
