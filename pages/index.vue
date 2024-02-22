@@ -65,11 +65,8 @@ onMounted(async () => {
           <div class="i-tabler-plus text-primary text-3xl" />
         </a>
 
-        <a href="mailto:sponsor@golang.tw" class="w-50 h-14 md:h-18 rounded-2xl border-1 border-dashed border-primary justify-center items-center flex gap-2">
-          <div class="i-tabler-heart-handshake text-pink-500 text-2xl" />
-          <div class="text-primary font-semibold">
-            {{ $t('sponsor') }}
-          </div>
+        <a href="https://www.iii.org.tw/" target="_blank" class="px-4 h-14 md:h-18 rounded-2xl justify-center items-center flex gap-2">
+          <NuxtImg src="/sponsors/iii.png" />
         </a>
 
         <a href="mailto:sponsor@golang.tw" class="w-50 h-18 rounded-2xl border-1 border-dashed border-primary justify-center items-center hidden md:flex op-60">
