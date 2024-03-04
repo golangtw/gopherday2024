@@ -19,7 +19,12 @@ definePageMeta({
           </div>
         </h3>
         <div class="flex flex-wrap gap-6">
-          <TeamMemberCard v-for="member in group.members" :key="member.name" v-bind="member" />
+          <TeamMemberCard
+            v-for="member in group.members"
+            :key="member.name"
+            v-bind="member"
+            :avatar="member.avatar ? `/images/team/${member.avatar === true ? member.name + '.png' : member.avatar}` : undefined"
+          />
           <TeamMemberCard v-if="group.isRecruiting" recruit />
         </div>
       </div>

@@ -2,6 +2,7 @@
 import { type GroupMember } from '@/constants/team'
 
 withDefaults(defineProps<Partial<GroupMember> & {
+  avatar?: string
   recruit?: boolean
 }>(), {
   avatar: '/avatar.png'
@@ -25,7 +26,7 @@ withDefaults(defineProps<Partial<GroupMember> & {
           class="relative rounded-[40px]"
           width="72"
           height="72"
-          :src="`/images/team/${name}.png`"
+          :src="avatar"
           placeholder="/avatar.png"
         />
         <div v-if="isLeader" class="absolute bottom-0 right-0">

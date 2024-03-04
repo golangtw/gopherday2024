@@ -1,6 +1,6 @@
 export interface GroupMember {
   name: string;
-  avatar?: string
+  avatar?: string | boolean
   remark?: string;
   isLeader?: boolean;
 }
@@ -15,8 +15,8 @@ export const groups: Group[] = [
   {
     name: 'general_coordinator',
     members: [
-      { name: 'GTB', isLeader: true },
-      { name: 'David Chou' }
+      { name: 'GTB', isLeader: true, avatar: true },
+      { name: 'David Chou', avatar: true }
     ]
   },
   {
@@ -28,44 +28,44 @@ export const groups: Group[] = [
       { name: 'Calvin Lin' },
       { name: '鯉魚' },
       { name: 'Jack' },
-      { name: 'Licky' },
-      { name: 'FionnKuo' }
+      { name: 'Licky', avatar: true },
+      { name: 'FionnKuo', avatar: true }
     ]
   },
   {
     name: 'sponsorship',
     members: [
-      { name: 'Licky', isLeader: true },
+      { name: 'Licky', isLeader: true, avatar: true },
       { name: 'Kakashi' },
       { name: '韓吉' },
-      { name: 'Eason Chen' }
+      { name: 'Eason Chen', avatar: true }
     ]
   },
   {
     name: 'venue_management',
     members: [
-      { name: 'Caesar' }
+      { name: 'Caesar', avatar: true }
     ]
   },
   {
     name: 'photography',
     members: [
-      { name: '孝玠', isLeader: true },
+      { name: '孝玠', isLeader: true, avatar: true },
       { name: 'Calvin Lin' }
     ]
   },
   {
     name: 'development',
     members: [
-      { name: 'SerKo', isLeader: true },
+      { name: 'SerKo', isLeader: true, avatar: true },
       { name: 'Edward' },
-      { name: '耿映翔' }
+      { name: '耿映翔', avatar: true }
     ]
   },
   {
     name: 'design',
     members: [
-      { name: 'SerKo', isLeader: true },
+      { name: 'SerKo', isLeader: true, avatar: true },
       { name: 'Peizhen' },
       { name: 'ㄆㄆ' },
       { name: 'Naldo' }
@@ -74,10 +74,10 @@ export const groups: Group[] = [
   {
     name: 'public_relations',
     members: [
-      { name: '耿映翔', isLeader: true },
+      { name: '耿映翔', isLeader: true, avatar: true },
       { name: 'Gobby', isLeader: true },
       { name: '韓吉' },
-      { name: 'Dylan' },
+      { name: 'Dylan', avatar: true },
       { name: '呱呱' }
     ]
   },
@@ -85,7 +85,7 @@ export const groups: Group[] = [
     name: 'human_resources',
     members: [
       { name: '韓吉', isLeader: true },
-      { name: '耿映翔' }
+      { name: '耿映翔', avatar: true }
     ]
   }
 ]
