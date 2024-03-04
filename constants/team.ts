@@ -16,7 +16,7 @@ export const groups: Group[] = [
     name: 'general_coordinator',
     members: [
       { name: 'GTB', isLeader: true },
-      { name: 'David' }
+      { name: 'David Chou' }
     ]
   },
   {
@@ -28,7 +28,8 @@ export const groups: Group[] = [
       { name: 'Calvin Lin' },
       { name: '鯉魚' },
       { name: 'Jack' },
-      { name: 'Licky' }
+      { name: 'Licky' },
+      { name: 'FionnKuo' }
     ]
   },
   {
@@ -37,7 +38,7 @@ export const groups: Group[] = [
       { name: 'Licky', isLeader: true },
       { name: 'Kakashi' },
       { name: '韓吉' },
-      { name: 'Eason' }
+      { name: 'Eason Chen' }
     ]
   },
   {

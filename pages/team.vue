@@ -13,7 +13,7 @@ definePageMeta({
     </h2>
     <div class="grid flex-col gap-6">
       <div v-for="group in groups" :key="group.name">
-        <h3 class="text-gray-300 font-semibold">
+        <h3 class="text-gray-300 font-semibold mb-3">
           <div v-if="group.name" class="text-gradient-primary op-80">
             {{ $t("teams." + group.name) }}
           </div>
