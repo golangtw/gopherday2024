@@ -16,7 +16,7 @@ export const groups: Group[] = [
     name: 'general_coordinator',
     members: [
       { name: 'GTB', isLeader: true, avatar: true },
-      { name: 'David Chou', avatar: true }
+      { name: 'David Chou', avatar: 'DavidChou.png' }
     ]
   },
   {
@@ -38,7 +38,7 @@ export const groups: Group[] = [
       { name: 'Licky', isLeader: true, avatar: true },
       { name: 'Kakashi' },
       { name: '韓吉' },
-      { name: 'Eason Chen', avatar: true }
+      { name: 'Eason Chen', avatar: 'EasonChen.png' }
     ]
   },
   {
@@ -50,7 +50,7 @@ export const groups: Group[] = [
   {
     name: 'photography',
     members: [
-      { name: '孝玠', isLeader: true, avatar: true },
+      { name: '孝玠', isLeader: true, avatar: '002.png' },
       { name: 'Calvin Lin' }
     ]
   },
@@ -59,7 +59,7 @@ export const groups: Group[] = [
     members: [
       { name: 'SerKo', isLeader: true, avatar: true },
       { name: 'Edward' },
-      { name: '耿映翔', avatar: true }
+      { name: '耿映翔', avatar: '001.png' }
     ]
   },
   {
@@ -74,7 +74,7 @@ export const groups: Group[] = [
   {
     name: 'public_relations',
     members: [
-      { name: '耿映翔', isLeader: true, avatar: true },
+      { name: '耿映翔', isLeader: true, avatar: '001.png' },
       { name: 'Gobby', isLeader: true },
       { name: '韓吉' },
       { name: 'Dylan', avatar: true },
@@ -85,7 +85,7 @@ export const groups: Group[] = [
     name: 'human_resources',
     members: [
       { name: '韓吉', isLeader: true },
-      { name: '耿映翔', avatar: true }
+      { name: '耿映翔', avatar: '001.png' }
     ]
   }
 ]
