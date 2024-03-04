@@ -17,7 +17,7 @@ We welcome Go developers from various fields to submit proposals related to the 
 ## Event Information
 
 ### Important Dates (GMT+8)
-Call for papers: December 04, 2023  
+Call for papers: December 4, 2023  
 Abstract submission deadline: March 24, 2024  
 Acceptance notification: April 1, 2024  
 Conference date: May 25, 2024
