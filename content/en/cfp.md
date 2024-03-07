@@ -27,7 +27,7 @@ Conference date: May 25, 2024
 Area A, 2F., No. 133, Sec. 4, Minsheng E. Rd., Songshan Dist., Taipei City
 
 ### Contact
-Please send message to Edward from Program Team on [Gopher Taipei Facebook Page](https://www.facebook.com/GolangTaipeiGathering)
+Please send message to Edward / Phoebe from Program Team on [Gopher Taipei Facebook Page](https://www.facebook.com/GolangTaipeiGathering)
 
 ::block-button-link{url=https://forms.gle/C1YivAH9gLDNJCft7}
 Submit Proposal
