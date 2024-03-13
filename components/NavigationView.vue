@@ -15,7 +15,7 @@ const localePath = useLocalePath()
         GOPHERDAY
       </NuxtLink>
       <a href="mailto:sponsor@golang.tw" class="text-primary hover:text-brand" active-class="text-secondary!">
-        {{ $t('sponsor') }}
+        {{ $t('sponsor_us') }}
       </a>
       <NuxtLink :to="localePath('/traffic')" class="text-primary hover:text-brand" active-class="text-secondary!">
         {{ $t('traffic') }}

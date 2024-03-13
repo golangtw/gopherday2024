@@ -6,4 +6,7 @@ GopherDay 為 GopherCon 的衍生小型活動，自從 GoperCon Taiwan 2020 年�
 我們歡迎各領域的 Go 開發者提交與下列主題相關的稿件。希望您能與全球 Go 社群的其他成員一起，分享您的 Go 語言開發心得，讓我們一起學習和交流 Go 的最新趨勢和應用技巧！
 
 ## 會場資訊
-::the-map{show-map-link}
+:the-map{show-map-link}
+
+## 活動贊助
+:the-sponsors

@@ -1,7 +1,7 @@
 {
     "description": "GopherDay Taiwan 2024 官方網站",
     "announcement": "廠商贊助招募中！",
-    "sponsor": "贊助聯絡",
+    "sponsor_us": "贊助聯絡",
     "team": "籌備團隊",
     "hero": {
         "title": "精彩議程，敬請期待",
@@ -23,5 +23,12 @@
         "address": "台北市松山區民生東路四段 133 號 2 樓 A 區"
     },
     "traffic": "會場交通",
-    "cfp": "議程徵稿"
+    "cfp": "議程徵稿",
+    "sponsor_level": {
+        "diamond": "鑽石級",
+        "platinum": "白金級",
+        "gold": "黃金級",
+        "silver": "白銀級",
+        "bronze": "青銅級"
+    }
 }

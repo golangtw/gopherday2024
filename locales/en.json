@@ -1,7 +1,7 @@
 {
     "description": "GopherDay Taiwan 2024 Official Website",
     "announcement": "Sponsor us now!",
-    "sponsor": "Sponsor",
+    "sponsor_us": "Sponsor",
     "team": "Team",
     "hero": {
         "title": "Exciting agenda, stay tuned",
@@ -23,5 +23,12 @@
         "address": "Area A, 2F., No. 133, Sec. 4, Minsheng E. Rd.,\nSongshan Dist., Taipei City"
     },
     "traffic": "Traffic",
-    "cfp": "Call for Proposals"
+    "cfp": "Call for Proposals",
+    "sponsor_level": {
+        "diamond": "Diamond",
+        "platinum": "Platium",
+        "gold": "Gold",
+        "silver": "Silver",
+        "bronze": "Bronze"
+    }
 }
