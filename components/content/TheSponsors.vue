@@ -17,7 +17,7 @@ const sponsorLogoClass = computed(() => {
     <h3>{{ $t('sponsor_level.platinum') }}</h3>
     <div class="grid mt-4">
       <TheSponsor
-        name="資策會"
+        :name="$t('sponsors.iii.name')"
         url="https://www.iii.org.tw/"
         logo="/sponsors/iii.png"
         :info="$t('sponsors.iii.info')"
@@ -29,7 +29,7 @@ const sponsorLogoClass = computed(() => {
     <h3>{{ $t('sponsor_level.silver') }}</h3>
     <div class="grid mt-4" :class="gridClass">
       <TheSponsor
-        name="MaiCoin"
+        :name="$t('sponsors.maicoin.name')"
         url="https://www.maicoin.com/"
         logo="/sponsors/maicoin.png"
         :info="$t('sponsors.maicoin.info')"
@@ -37,7 +37,7 @@ const sponsorLogoClass = computed(() => {
         :logo-class="sponsorLogoClass"
       />
       <TheSponsor
-        name="Dcard"
+        :name="$t('sponsors.dcard.name')"
         url="https://www.dcard.tw/"
         logo="/sponsors/dcard.png"
         :info="$t('sponsors.dcard.info')"
@@ -49,7 +49,7 @@ const sponsorLogoClass = computed(() => {
     <h3>{{ $t('sponsor_level.bronze') }}</h3>
     <div class="grid mt-4" :class="gridClass">
       <TheSponsor
-        name="TSMC 台灣積體電路製造股份有限公司"
+        :name="$t('sponsors.tsmc.name')"
         url="https://www.tsmc.com/chinese"
         logo="/sponsors/tsmc.jpg"
         :info="$t('sponsors.tsmc.info')"
