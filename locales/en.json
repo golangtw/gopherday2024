@@ -34,11 +34,11 @@
     },
     "sponsors": {
         "iii": {
-            "name": "資策會",
+            "name": "III",
             "info": "Established in 1979 through joint collaboration between the government and private sector, III is dedicated to advancing innovation and application in information and communication technology in Taiwan.  With a focus on fostering the development of the digital economy, III engages in planning, formulation, and advocacy of various governmental information industry policies. It is committed to proactive research and development in ICT, as well as the widespread dissemination and deepening of information applications. Additionally, III plays a pivotal role in nurturing ICT talents and participating in national information infrastructure construction.  Recognized as the \"Digital Transformation Enabler\", the primary mission involves integrating expertise, ICT talent cultivation, and ICT R&D to develop solutions and application services that meet industry demands, thereby facilitating the digital transformation of both government and industry."
         },
         "tsmc": {
-            "name": "TSMC 台灣積體電路製造股份有限公司",
+            "name": "TSMC",
             "info": "台積公司是世界領先的專業積體電路製造服務公司，背後關鍵秘訣是：Fab runs on code──跑在程式碼上的晶圓廠。台積IT是半導體前瞻製程的重要支援夥伴，產品藍圖涵蓋資通訊建構、AI應用、技術系統及企業系統，服務的使用者來自工廠、企業員工及合作夥伴。我們匯聚全球頂尖人才，打造雲原生和數位轉型。Change is happening. Join us now!"
         },
         "maicoin": {
