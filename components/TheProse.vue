@@ -3,7 +3,7 @@ import './assets/styles/prose.css'
 </script>
 
 <template>
-  <article class="prose prose-gray">
+  <article class="prose prose-gray max-w-full">
     <ContentDoc />
   </article>
 </template>

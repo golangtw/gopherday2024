@@ -8,7 +8,7 @@ definePageMeta({
 
 <template>
   <div class="mx-auto w-full md:w-3xl py-16 px-8">
-    <h2 class="text-brand text-2xl font-semibold mb-6">
+    <h2 class="text-brand text-3xl font-semibold mb-6">
       {{ $t('team') }}
     </h2>
     <div class="grid flex-col gap-6">

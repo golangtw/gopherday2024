@@ -10,3 +10,5 @@ We welcome Go developers from various fields to submit proposals related to the 
 
 ## Sponsors
 :the-sponsors
+
+:sponsor-button
