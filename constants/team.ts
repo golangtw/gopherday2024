@@ -67,7 +67,7 @@ export const groups: Group[] = [
     members: [
       { name: 'SerKo', isLeader: true, avatar: true },
       { name: 'Peizhen' },
-      { name: 'ㄆㄆ' },
+      { name: '飄飄 Piao', avatar: 'Piao.png' },
       { name: 'Naldo' }
     ]
   },
