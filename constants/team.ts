@@ -48,10 +48,11 @@ export const groups: Group[] = [
     ]
   },
   {
-    name: 'photography',
+    name: 'record',
     members: [
       { name: '孝玠', isLeader: true, avatar: '002.png' },
-      { name: 'Calvin Lin' }
+      { name: 'Calvin Lin' },
+      { name: 'Sean', avatar: true }
     ]
   },
   {
