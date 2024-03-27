@@ -7,7 +7,7 @@
     "hero": {
         "title": "Exciting agenda, stay tuned",
         "date": "May 25, 2024",
-        "location": "Living Lab+, Taipei"
+        "location": "Taipei"
     },
     "teams": {
         "general_coordinator": "General Coordinator",
@@ -21,7 +21,7 @@
         "human_resources": "Human Resources"
     },
     "location": {
-        "address": "Area A, 2F., No. 133, Sec. 4, Minsheng E. Rd.,\nSongshan Dist., Taipei City"
+        "address": "14F., No. 133, Sec. 4, Minsheng E. Rd.,\nSongshan Dist., Taipei City"
     },
     "traffic": "Traffic",
     "cfp": "Call for Proposals",

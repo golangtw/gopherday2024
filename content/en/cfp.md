@@ -23,8 +23,8 @@ Acceptance notification: April 1, 2024
 Conference date: May 25, 2024
 
 ### Location
-[Living Lab+](/en/traffic)  
-Area A, 2F., No. 133, Sec. 4, Minsheng E. Rd., Songshan Dist., Taipei City
+[民生科技服務大樓](/en/traffic)  
+14F., No. 133, Sec. 4, Minsheng E. Rd., Songshan Dist., Taipei City
 
 ### Contact
 Please send message to Edward / Phoebe from Program Team on [Gopher Taipei Facebook Page](https://www.facebook.com/GolangTaipeiGathering)

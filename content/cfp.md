@@ -24,8 +24,8 @@ GopherDay 為 GopherCon 的衍生小型活動，自從 GoperCon Taiwan 2020 年�
 研討會日期：2024 年 5 月 25 日
 
 ### 地點
-[Living Lab+](/traffic)  
-台北市松山區民生東路四段 133 號 2 樓 A 區
+[民生科技服務大樓 14F 創新廳](/traffic)  
+台北市松山區民生東路四段 133 號 14 樓
 
 ### 聯絡方式
 請發訊息至 [Gopher Taipei Facebook 專案](https://www.facebook.com/GolangTaipeiGathering) 議程組 Edward / Phoebe

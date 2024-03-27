@@ -7,7 +7,7 @@
     "hero": {
         "title": "精彩議程，敬請期待",
         "date": "2024 年 5 月 25 日",
-        "location": "台北 · Living Lab+"
+        "location": "台北 · 民生科技服務大樓 14F 創新廳"
     },
     "teams": {
         "general_coordinator": "總召組",
@@ -21,7 +21,7 @@
         "human_resources": "HR 組"
     },
     "location": {
-        "address": "台北市松山區民生東路四段 133 號 2 樓 A 區"
+        "address": "台北市松山區民生東路四段 133 號 14F 創新廳"
     },
     "traffic": "會場交通",
     "cfp": "議程徵稿",

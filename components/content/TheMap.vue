@@ -21,9 +21,7 @@ const localePath = useLocalePath()
     <div class="flex w-full flex-col gap-3 sm:(flex-row justify-between) mt-4">
       <div>
         <div class="font-semibold text-2xl mb-2">
-          <a href="https://livinglabs.com.tw/" target="_blank" class="hover:text-secondary transition-color">
-            Living Lab+
-          </a>
+          民生科技服務大樓
         </div>
         <a href="https://maps.app.goo.gl/shDruYHZ7TBEW5Q78" target="_blank" class="text-lg text-gray-500 hover:text-secondary whitespace-pre-line transition-color">
           {{ $t('location.address') }}
