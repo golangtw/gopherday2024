@@ -55,26 +55,19 @@ onMounted(async () => {
       </div>
     </div>
 
-    <div class="w-full py-6 md:py-12 opacity-80 bg-primary/10 flex-col justify-start items-center inline-flex">
-      <div class="self-stretch justify-center items-start gap-6 inline-flex">
-        <a href="mailto:sponsor@golang.tw" class="w-50 h-18 rounded-2xl border-1 border-dashed border-primary justify-center items-center op-30 hidden md:flex">
-          <div class="i-tabler-plus text-primary text-3xl" />
+    <div class="w-full px-4 py-6 md:py-12 opacity-80 bg-primary/10 flex-col justify-start items-center inline-flex of-x-auto">
+      <div class="self-stretch justify-center items-start gap-6 inline-flex w-max md:w-full">
+        <a href="https://www.iii.org.tw/" target="_blank" class="hero-sponsor md:order-3">
+          <NuxtImg src="/sponsors/iii.png" :height="50" />
         </a>
-
-        <a href="mailto:sponsor@golang.tw" class="w-50 h-18 rounded-2xl border-1 border-dashed border-primary justify-center items-center hidden md:flex op-60">
-          <div class="i-tabler-plus text-primary text-3xl" />
+        <a href="https://www.tsmc.com/chinese" target="_blank" class="hero-sponsor md:order-1">
+          <NuxtImg src="/sponsors/tsmc.png" :height="30" />
         </a>
-
-        <a href="https://www.iii.org.tw/" target="_blank" class="px-4 h-14 md:h-18 rounded-2xl justify-center items-center flex gap-2">
-          <NuxtImg src="/sponsors/iii.png" />
+        <a href="https://www.dcard.tw/" target="_blank" class="hero-sponsor md:order-2">
+          <NuxtImg src="/sponsors/dcard.png" :height="40" />
         </a>
-
-        <a href="mailto:sponsor@golang.tw" class="w-50 h-18 rounded-2xl border-1 border-dashed border-primary justify-center items-center hidden md:flex op-60">
-          <div class="i-tabler-plus text-primary text-3xl" />
-        </a>
-
-        <a href="mailto:sponsor@golang.tw" class="w-50 h-18 rounded-2xl border-1 border-dashed border-primary justify-center items-center hidden md:flex op-30">
-          <div class="i-tabler-plus text-primary text-3xl" />
+        <a href="https://www.maicoin.com/" target="_blank" class="hero-sponsor md:order-4">
+          <NuxtImg src="/sponsors/maicoin.png" :height="40" />
         </a>
       </div>
     </div>
@@ -84,3 +77,9 @@ onMounted(async () => {
     </div>
   </div>
 </template>
+
+<style scoped>
+.hero-sponsor {
+  --at-apply: px-4 h-14 md:h-18 rounded-2xl justify-center items-center flex gap-2;
+}
+</style>

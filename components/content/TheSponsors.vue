@@ -51,7 +51,7 @@ const sponsorLogoClass = computed(() => {
       <TheSponsor
         :name="$t('sponsors.tsmc.name')"
         url="https://www.tsmc.com/chinese"
-        logo="/sponsors/tsmc.jpg"
+        logo="/sponsors/tsmc.png"
         :info="$t('sponsors.tsmc.info')"
         :show-detail="showDetail"
         :logo-class="sponsorLogoClass"
