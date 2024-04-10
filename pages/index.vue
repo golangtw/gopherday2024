@@ -22,7 +22,7 @@ onMounted(async () => {
   <div>
     <div class="w-full <md:py-10 md:h-[calc(100vh-8rem)] flex flex-col">
       <div class="flex flex-1 justify-center items-center">
-        <div class="w-full max-h-[calc(100vh-8rem-18rem)] aspect-[2/1] relative overflow-hidden">
+        <div class="w-full max-h-[calc(100vh-8rem-20rem)] aspect-[2/1] relative overflow-hidden">
           <div v-show="!showCanvas" class="absolute top-0 left-0 w-full h-full z-10 flex justify-center">
             <NuxtImg preload src="/banner.png" />
           </div>
@@ -30,9 +30,9 @@ onMounted(async () => {
         </div>
       </div>
 
-      <div class="md:h-72 flex flex-col items-center">
+      <div class="md:h-80 flex flex-col items-center">
         <div class="flex items-center flex-col h-full">
-          <div class="text-brand text-2xl md:text-10 leading-12 font-medium">
+          <div class="text-brand text-2xl md:text-8 leading-12 font-medium">
             {{ $t('hero.title') }}
           </div>
           <div class="text-xl md:text-8 my-2 md:(mt-6 mb-4) text-gray-600">
@@ -40,6 +40,13 @@ onMounted(async () => {
           </div>
           <NuxtLink :to="localePath('/traffic')" class="text-lg md:text-6.5 text-gray-400 transition-all hover:text-secondary">
             {{ $t('hero.location') }}
+          </NuxtLink>
+          <NuxtLink
+            class="bg-brand py-2 px-6 mt-4 md:(py-4 px-12 text-2xl mt-8 rounded-2xl) rounded-md font-semibold text-white hover:scale-105 transition-all"
+            to="https://golang.kktix.cc/events/gopherdaytw2024"
+            target="_blank"
+          >
+            {{ $t('buy_ticket') }}
           </NuxtLink>
         </div>
 
