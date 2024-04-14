@@ -24,9 +24,6 @@ const localePath = useLocalePath()
       <NuxtLink :to="localePath('/team')" class="text-primary hover:text-brand" active-class="text-secondary!">
         {{ $t('team') }}
       </NuxtLink>
-      <NuxtLink :to="localePath('/cfp')" class="text-primary hover:text-brand" active-class="text-secondary!">
-        {{ $t('cfp') }}
-      </NuxtLink>
       <NuxtLink
         to="https://golang.kktix.cc/events/gopherdaytw2024"
         target="_blank"
