@@ -66,16 +66,19 @@ onMounted(async () => {
 
     <div class="w-full px-4 py-6 md:py-12 opacity-80 bg-primary/10 flex-col justify-start items-center inline-flex of-x-auto">
       <div class="self-stretch justify-center items-start gap-6 inline-flex w-max md:w-full">
-        <a href="https://www.iii.org.tw/" target="_blank" class="hero-sponsor md:order-3">
+        <a href="https://www.iii.org.tw/" target="_blank" class="hero-sponsor md:order-4">
           <NuxtImg src="/sponsors/iii.png" :height="50" />
+        </a>
+        <a href="https://www.circle.com/" target="_blank" class="hero-sponsor md:order-3">
+          <NuxtImg src="/sponsors/circle.png" :height="42" />
         </a>
         <a href="https://www.tsmc.com/chinese" target="_blank" class="hero-sponsor md:order-1">
           <NuxtImg src="/sponsors/tsmc.png" :height="30" />
         </a>
         <a href="https://www.dcard.tw/" target="_blank" class="hero-sponsor md:order-2">
-          <NuxtImg src="/sponsors/dcard.png" :height="40" />
+          <NuxtImg src="/sponsors/dcard.png" :height="35" />
         </a>
-        <a href="https://www.maicoin.com/" target="_blank" class="hero-sponsor md:order-4">
+        <a href="https://www.maicoin.com/" target="_blank" class="hero-sponsor md:order-5">
           <NuxtImg src="/sponsors/maicoin.png" :height="40" />
         </a>
       </div>

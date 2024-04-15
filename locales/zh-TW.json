@@ -50,6 +50,10 @@
         "dcard": {
             "name": "Dcard",
             "info": "Dcard 是全台灣最大匿名社群，在年輕族群有極高滲透率與影響力，致力於打造一個讓每個人安心分享自己故事的地方。\n現在 Dcard 站上擁有超過 1,000 萬註冊會員，每個月更有 2,200 萬不重複訪客，除了既有社群服務與版圖，我們也正快速發展廣告、電商、IP 影音、角色品牌、遊戲與跨國市場等新領域，並持續探索更多新型業務的可能性。在 Dcard 持續擴展影響力的過程中，我們期待邀請優秀的你加入！"
+        },
+        "circle": {
+            "name": "Circle",
+            "info": "Circle is a financial technology company at the epicenter of the emerging internet of money. We believe in a future where digital dollars work securely around the world to create a more prosperous global economy for everyone. Our infrastructure – including USDC, a blockchain-based dollar – helps businesses, institutions and developers harness these breakthroughs and capitalize on this major turning point in the evolution of money and technology. Looking to unlock your career’s growth? Come visit us at the booth or visit our website for opportunities!"
         }
     },
     "back": "返回",
