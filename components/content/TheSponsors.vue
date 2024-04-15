@@ -26,6 +26,18 @@ const sponsorLogoClass = computed(() => {
       />
     </div>
 
+    <h3>{{ $t('sponsor_level.gold') }}</h3>
+    <div class="grid mt-4" :class="gridClass">
+      <TheSponsor
+        :name="$t('sponsors.circle.name')"
+        url="https://www.circle.com/"
+        logo="/sponsors/circle.png"
+        :info="$t('sponsors.circle.info')"
+        :show-detail="showDetail"
+        :logo-class="sponsorLogoClass"
+      />
+    </div>
+
     <h3>{{ $t('sponsor_level.silver') }}</h3>
     <div class="grid mt-4" :class="gridClass">
       <TheSponsor

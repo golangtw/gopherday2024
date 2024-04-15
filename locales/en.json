@@ -49,6 +49,10 @@
         "dcard": {
             "name": "Dcard",
             "info": "Dcard is Taiwan's largest anonymous community, with a significant presence and influence among the younger population, where the users can freely exchange their thoughts and opinions while finding connections with each other. Currently, Dcard has over 10 million registered members and attracts over 22 million unique visitors each month. In addition to our existing community services, we're rapidly expanding into new areas such as advertising, e-commerce, video, character branding, gaming, and international markets. As we continue to grow our impact, we're excited to invite talented individuals like you to join us!"
+        },
+        "circle": {
+            "name": "Circle",
+            "info": "Circle is a financial technology company at the epicenter of the emerging internet of money. We believe in a future where digital dollars work securely around the world to create a more prosperous global economy for everyone. Our infrastructure – including USDC, a blockchain-based dollar – helps businesses, institutions and developers harness these breakthroughs and capitalize on this major turning point in the evolution of money and technology. Looking to unlock your career’s growth? Come visit us at the booth or visit our website for opportunities!"
         }
     }
 }
