@@ -1,0 +1,17 @@
+---
+time: 15:50 - 16:20
+title: Use API Gateway and Go service to achieve HTTP idempotencier
+speaker:
+  name: Gaston Chiu
+  title: Backend Engineer @ Crypto.com
+  info: 小小後端工程師
+---
+
+在這次的分享中，我們將深入探討如何將 Kong Gateway Plugin 和 Go Service 結合，將 HTTP POST 請求轉換為 idempotent。這個方式不僅能應用在不同程式語言的服務，還能夠在 API Gateway 端處理 Idempotent，從而增加Reusability和Security。透過這種方式，我們不再需要將這些處理過程分散到各個服務中，而是集中在 API Gateway 上，提高了整體系統的可維護性和效率。
+
+我會從介面的設計，架構，技術上的選擇，遇到的挑戰，希望大家能夠有些收穫。
+
+Reference:
+- https://datatracker.ietf.org/doc/draft-ietf-httpapi-idempotency-key-header
+- https://martin.kleppmann.com/2016/02/08/how-to-do-distributed-locking.html
+- https://redis.io/docs/manual/patterns/distributed-locks/

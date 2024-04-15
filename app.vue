@@ -7,11 +7,14 @@ const head = useLocaleHead({
   addSeoAttributes: true
 })
 
-const title = computed(() => `${route.meta.title ? t(route.meta.title as string) + ' - ' : ''}GopherDay Taiwan 2024`)
+const title = computed(() => `${route.meta.title ? t(route.meta.title as string) : ''}`)
 const description = computed(() => t(route.meta.description as string ?? 'description'))
 
 useHead({
   title,
+  titleTemplate: (titleChunk) => {
+    return titleChunk ? `${titleChunk} - GopherDay Taiwan 2024` : 'GopherDay Taiwan 2024'
+  },
   meta: [
     { property: 'description', content: description },
     { property: 'og:title', content: title },

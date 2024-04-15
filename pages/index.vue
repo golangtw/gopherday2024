@@ -8,13 +8,15 @@ const localePath = useLocalePath()
 const isWindowScrollTop = computed(() => y.value === 0)
 
 onMounted(async () => {
-  const app = new Application(canvas.value!)
-  await app.load('/scene.splinecode')
+  if (import.meta.client) {
+    const app = new Application(canvas.value!)
+    await app.load('/scene.splinecode')
 
-  // prevent the blinking of canvas
-  setTimeout(() => {
-    showCanvas.value = true
-  }, 100)
+    // prevent the blinking of canvas
+    setTimeout(() => {
+      showCanvas.value = true
+    }, 100)
+  }
 })
 </script>
 

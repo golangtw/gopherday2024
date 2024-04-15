@@ -1,0 +1,17 @@
+---
+time: 09:05 - 09:45
+title: What is the iterator and how does it build an ecosystem in Go?
+speaker:
+  name: TennTenn
+  title: Knowledge Work
+  info: |
+    Takuya Ueda is one of the organizers of the Go conference in Japan. He works for Knowledge Work. He is a Google Developer Expert (Go).
+    He contributes to the growth of the Go community in Japan. He also loves the Go Gopher and drawing the Go Gopher illustrations.
+---
+
+We would be able to use functions in “for range” in Go 1.23.
+This feature is known as iterator, you can try it with GOEXPERIMENT=rangefunc in Go1.22.
+The maps and slices packages provide functions that return or get an iterator in Go1.23.
+For example, maps.Keys returns an iterator of keys instead of a slice.
+This session will explain iterators and how to use them.
+And I will show my thoughts about an ecosystem built around iterators and related functions.

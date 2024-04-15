@@ -1,0 +1,17 @@
+---
+time: 09:55 - 10:35
+type: Best Practices in Development
+title: Mastering Large-Size HTTP Requests in the Modern Web
+speaker:
+  name: 謝雨軒 Cherie Hsieh
+  title: Principle SRE Engineer @ TSMC
+  info: Gopher. 喜歡研究作業系統、效能改善等議題
+---
+
+使用網頁上傳檔案並進行處理是很常見的應用場景，不過如果妥善處理，將導致嚴重的效能議題。在本次分享中，將簡述實際案例，並且從了解 large-size request 傳輸流程開始，探討該如何從客戶端和伺服器端進行改善。
+
+1. A real case: challenges with large-size requests
+2. The journey of a large-size request from the client to the server
+3. Management strategy: client-side
+4. Management strategy: server-side
+5. Lessons learned and best practices

@@ -1,0 +1,35 @@
+---
+time: 13:05 - 13:35
+title: Navigating the Unknown Career Paths Offered by Go Communities and Planned Happenstance
+speaker:
+  name: luccafort
+  title: Backend Engineer @ Tech-PR
+  info: |
+    I work as Tech PR at Money Forward, Inc. in Kyoto, Japan. I run Kyoto.rb and Kyoto.go. I have also been contributing to community activities as a member of  The Go Conference since 2021 Autumn.
+    I'm Backend engineer and Tech-PR, I was born and raise in Kyoto, Japan.
+    I love PHP, Ruby, Go, TypeScript and more.
+    I'm one member of organization at Kyoto.rb, Kyoto.go and Go Conference.
+    I am going to try to GopherDay 2024 first time as participate and speaker.
+---
+
+In this session, I would like to talk about how my career has evolved through community activities. I'll share insights into the state of community activities in Japan, as well as the impact of "A Rainbow of Gophers: Building A More Diverse Community," presented at GopherCon 2020, on my career. Additionally, I want to emphasize the importance of planned happenstance theory, which suggests that intentionally taking action creates opportunities, through my challenge to step out of my comfort zone.
+
+Outline:
+- Brief introduction to the Japanese community
+    - Changes in the number of sponsors at Go Conference
+- How the Go community has influenced my career
+    - What does it mean to grow with the community?
+    - A third career beyond engineer and manager roles
+- Two essential elements for personal growth
+- A certain session at GopherCon 2020 that triggered a career change
+    - Reflecting on the meaning of diversity
+    - When diversity emerges
+    - What we can do to foster diversity
+- Challenges breed new encounters, and new encounters create opportunities
+    - There are broadly two approaches to career development:
+        - Pursuing a planned career path
+        - Embracing planned happenstance, where personal interests and actions shape one's career, as described in Constructing unexpected career opportunities [1].
+    - Communities support both approaches:
+        - The former offers opportunities for speaking and presenting, enhancing individual careers.
+        - The latter provides opportunities for new encounters and insights, teaching about third careers.
+- Conclusion

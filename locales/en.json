@@ -6,7 +6,7 @@
     "team": "Team",
     "agenda": "Agenda",
     "hero": {
-        "title": "Exciting agenda, stay tuned",
+        "title": "Exciting agenda, ready to Go!",
         "date": "May 25, 2024",
         "location": "Taipei"
     },
@@ -51,5 +51,7 @@
             "name": "Dcard",
             "info": "Dcard is Taiwan's largest anonymous community, with a significant presence and influence among the younger population, where the users can freely exchange their thoughts and opinions while finding connections with each other. Currently, Dcard has over 10 million registered members and attracts over 22 million unique visitors each month. In addition to our existing community services, we're rapidly expanding into new areas such as advertising, e-commerce, video, character branding, gaming, and international markets. As we continue to grow our impact, we're excited to invite talented individuals like you to join us!"
         }
-    }
+    },
+    "back": "Back",
+    "speaker": "Speaker"
 }

@@ -1,0 +1,11 @@
+---
+time: 16:30 - 17:00
+title: "A Deep Dive into Merpay's Campaign System: Architectural Insights and Evolution"
+speaker:
+  name: Peng JouHsuan
+  title: Backend Engineer
+  info: Taiwanese working in Japan, a Backend Engineer in Mercari, started using Golang in 2018.
+---
+
+Discover the secrets behind the success of Merpay's five-year-old campaign system, renowned within the company as a model of clean architecture application. In this session, we'll explore the system's design and evolution by walking through the process of integrating a new campaign. Gain valuable insights into the challenges and solutions that have shaped the system into an exemplary framework.
+( this session might be Mandarin, but my presentation needs to pass pr check by company, slides need to be in English)
