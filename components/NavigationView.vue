@@ -15,6 +15,9 @@ const localePath = useLocalePath()
       <NuxtLink :to="localePath('/')" class="font-worksans italic text-primary hover:text-brand" active-class="text-secondary!">
         GOPHERDAY
       </NuxtLink>
+      <NuxtLink :to="localePath('/agenda')" class="text-primary hover:text-brand" active-class="text-secondary!">
+        {{ $t('agenda') }}
+      </NuxtLink>
       <NuxtLink :to="localePath('/sponsor')" class="text-primary hover:text-brand" active-class="text-secondary!">
         {{ $t('sponsor') }}
       </NuxtLink>
