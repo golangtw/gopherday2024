@@ -54,6 +54,10 @@
         "circle": {
             "name": "Circle",
             "info": "Circle is a financial technology company at the epicenter of the emerging internet of money. We believe in a future where digital dollars work securely around the world to create a more prosperous global economy for everyone. Our infrastructure – including USDC, a blockchain-based dollar – helps businesses, institutions and developers harness these breakthroughs and capitalize on this major turning point in the evolution of money and technology. Looking to unlock your career’s growth? Come visit us at the booth or visit our website for opportunities!"
+        },
+        "iscoollab": {
+            "name": "IsCoolLab",
+            "info": "IsCoolLab, established in 2018, stands at the forefront of digital transformation through smart automation. Originating as a testing automation software provider, IsCoolLab has since expanded its expertise to develop revolutionary solutions in the field of automation.\n\nWe introduced Robotiive, a unique, patented Robotic Process Automation (RPA) blending AI and computer vision to achieve cross-platform, cross-system, cross-machine data integration and automation. Its non-intrusive feature empowers businesses to connect and automate previously siloed machines and systems, thereby facilitating seamless digitalization.\n\nAt IsCoolLab, we're not just part of the industry—we're at its cutting edge, redefining the integration of smart automation, smart manufacturing in the digital age."
         }
     },
     "back": "Back",

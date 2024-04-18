@@ -54,6 +54,10 @@
         "circle": {
             "name": "Circle",
             "info": "Circle is a financial technology company at the epicenter of the emerging internet of money. We believe in a future where digital dollars work securely around the world to create a more prosperous global economy for everyone. Our infrastructure – including USDC, a blockchain-based dollar – helps businesses, institutions and developers harness these breakthroughs and capitalize on this major turning point in the evolution of money and technology. Looking to unlock your career’s growth? Come visit us at the booth or visit our website for opportunities!"
+        },
+        "iscoollab": {
+            "name": "IsCoolLab",
+            "info": "IsCoolLab 自2018年成立以來，一直站在智慧自動化與數位轉型的最前線。最初作為測試自動化軟體開發商，IsCoolLab 自此拓展了其在自動化領域的專業，開發出革命性的解決方案 Robotiive。\n\nRobotiive 是一款結合了人工智慧和電腦視覺專利技術的流程自動化軟體（RPA），結合了人工智慧和電腦視覺技術，它能夠實現跨平台、跨系統、跨機器的數據整合與自動化。其非侵入式的特性使企業得以輕鬆連接和自動化原本孤立的機器和系統，進而順暢地實現數位化轉型。\n\n在 IsCoolLab，我們不僅是這個產業的一員；我們處於其尖端，以創新和技術，不斷地重新定義智慧自動化技術在數位時代、智慧製造的應用和發展。\n\n伊斯酷軟體科技的團隊具備多年國際專業經驗於智慧軟體自動化與測試技術的研發，採用獨特專利之影像處理與辨識技術，專注提供各產業智慧自動化測試以及各類型自動化之軟體解決方案。運用軟體去處理單調且重複性的工作，幫助企業做更好的人力配置及產出更高的價值。目標在幫助提升台灣與全球各企業的生產力與競爭力，與工業4.0無縫接軌。本公司提供的服務範圍包含工業電腦、伺服器主機之BIOS與功能之迴歸測試自動化、生產線機台自動化資料蒐集、監控、遙控、完整自動化軟體實做、軟體迴歸測試自動化、RPA、物聯網及智慧製造。"
         }
     },
     "back": "返回",

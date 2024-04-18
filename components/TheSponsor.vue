@@ -38,7 +38,7 @@ defineOptions({
         <div class="text-sky-600 font-semibold text-2xl">
           {{ name }}
         </div>
-        <div class="text-sky-900">
+        <div class="text-sky-900 whitespace-break-spaces">
           {{ info }}
         </div>
       </div>

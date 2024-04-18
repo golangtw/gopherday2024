@@ -69,8 +69,11 @@ onMounted(async () => {
         <a href="https://www.iii.org.tw/" target="_blank" class="hero-sponsor md:order-4">
           <NuxtImg src="/sponsors/iii.png" :height="50" />
         </a>
-        <a href="https://www.circle.com/" target="_blank" class="hero-sponsor md:order-3">
+        <a href="https://www.circle.com/" target="_blank" class="hero-sponsor md:order-5">
           <NuxtImg src="/sponsors/circle.png" :height="42" />
+        </a>
+        <a href="https://www.circle.com/" target="_blank" class="hero-sponsor md:order-3">
+          <NuxtImg src="/sponsors/iscoollab.png" :height="32" />
         </a>
         <a href="https://www.tsmc.com/chinese" target="_blank" class="hero-sponsor md:order-1">
           <NuxtImg src="/sponsors/tsmc.png" :height="30" />
@@ -78,7 +81,7 @@ onMounted(async () => {
         <a href="https://www.dcard.tw/" target="_blank" class="hero-sponsor md:order-2">
           <NuxtImg src="/sponsors/dcard.png" :height="35" />
         </a>
-        <a href="https://www.maicoin.com/" target="_blank" class="hero-sponsor md:order-5">
+        <a href="https://www.maicoin.com/" target="_blank" class="hero-sponsor md:order-6">
           <NuxtImg src="/sponsors/maicoin.png" :height="40" />
         </a>
       </div>

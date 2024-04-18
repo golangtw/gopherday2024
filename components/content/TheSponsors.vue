@@ -36,6 +36,14 @@ const sponsorLogoClass = computed(() => {
         :show-detail="showDetail"
         :logo-class="sponsorLogoClass"
       />
+      <TheSponsor
+        :name="$t('sponsors.iscoollab.name')"
+        url="https://iscoollab.com/"
+        logo="/sponsors/iscoollab.png"
+        :info="$t('sponsors.iscoollab.info')"
+        :show-detail="showDetail"
+        :logo-class="sponsorLogoClass"
+      />
     </div>
 
     <h3>{{ $t('sponsor_level.silver') }}</h3>
