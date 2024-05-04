@@ -26,7 +26,7 @@ export const groups: Group[] = [
       { name: '韓吉', avatar: 'hanji.png' },
       { name: 'Calvin Lin' },
       { name: 'Jack', avatar: 'Jack.png' },
-      { name: 'Mark' },
+      { name: 'Mark',avatar:'Mark.png' },
       { name: 'Licky', avatar: true },
       { name: 'FionnKuo', avatar: true },
       { name: 'Connie', avatar: 'Connie.png' }
@@ -51,11 +51,11 @@ export const groups: Group[] = [
       { name: '梯口' },
       { name: 'Kevin Yang', avatar: 'KevinYang.png' },
       { name: 'min', avatar: 'min.png' },
-      { name: 'Mia' },
+      { name: 'Mia',avatar:'Mia.png' },
       { name: 'YT' },
-      { name: 'k3tten' },
-      { name: 'Luffy' }
-    ]
+      { name: 'Kettan',avatar:'Kettan.png' },
+      { name: 'Luffy' },
+    ],
   },
   {
     name: 'record',
@@ -87,9 +87,9 @@ export const groups: Group[] = [
       { name: 'Gobby', isLeader: true, avatar: 'Gobby.png' },
       { name: '韓吉', avatar: 'hanji.png' },
       { name: 'Dylan', avatar: true },
-      { name: '呱呱' },
-      { name: 'hsiang', avatar: 'hsiang.png' }
-    ]
+      { name: '呱呱',avatar:'duck.png' },
+      { name: 'hsiang', avatar: 'hsiang.png' },
+    ],
   },
   {
     name: 'human_resources',
