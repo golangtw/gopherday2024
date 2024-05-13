@@ -13,7 +13,7 @@ pgcapture 最初是由 Dcard 團隊以 Golang 開發並基於 PostgreSQL 的 CDC
 
 此外，我們將探討 pgcapture 在以下應用場景中的實用性：
 
-1. Robust Microservice Event Sourcing
+1. Robust Microservice Event Queueing
 2. Data synchronization, Moving data to other databases (ex. for OLAP)
 3. Upgrade PostgreSQL with minimum downtime
 
