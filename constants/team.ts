@@ -26,12 +26,12 @@ export const groups: Group[] = [
       { name: '韓吉', avatar: 'hanji.png' },
       { name: 'Calvin Huang' },
       { name: 'Jack', avatar: 'Jack.png' },
-      { name: 'Mark',avatar:'Mark.png' },
+      { name: 'Mark', avatar: 'Mark.png' },
       { name: 'Licky', avatar: true },
       { name: 'FionnKuo', avatar: true },
       { name: 'Connie', avatar: 'Connie.png' },
-      { name: 'Lois',avatar:'Lois.png' },
-    ],
+      { name: 'Lois', avatar: 'Lois.png' }
+    ]
   },
   {
     name: 'sponsorship',
@@ -52,20 +52,20 @@ export const groups: Group[] = [
       { name: '梯口' },
       { name: 'Kevin Yang', avatar: 'KevinYang.png' },
       { name: 'min', avatar: 'min.png' },
-      { name: 'Mia',avatar:'mia.png' },
+      { name: 'Mia', avatar: 'mia.png' },
       { name: 'YT' },
-      { name: 'Kettan',avatar:'Kettan.png' },
+      { name: 'Kettan', avatar: 'Kettan.png' },
       { name: 'Luffy' },
-      { name: 'Steven Chang',avatar:'StevenChang.png' },
-    ],
+      { name: 'Steven Chang', avatar: 'StevenChang.png' }
+    ]
   },
   {
     name: 'record',
     members: [
       { name: '孝玠', isLeader: true, avatar: '002.png' },
       { name: 'Calvin Huang' },
-      { name: 'Sean', avatar: true },
-    ],
+      { name: 'Sean', avatar: true }
+    ]
   },
   {
     name: 'development',
@@ -89,9 +89,9 @@ export const groups: Group[] = [
       { name: 'Gobby', isLeader: true, avatar: 'Gobby.png' },
       { name: '韓吉', avatar: 'hanji.png' },
       { name: 'Dylan', avatar: true },
-      { name: '呱呱',avatar:'duck.png' },
-      { name: 'hsiang', avatar: 'hsiang.png' },
-    ],
+      { name: '呱呱', avatar: 'duck.png' },
+      { name: 'hsiang', avatar: 'hsiang.png' }
+    ]
   },
   {
     name: 'human_resources',
