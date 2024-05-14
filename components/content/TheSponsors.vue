@@ -64,6 +64,14 @@ const sponsorLogoClass = computed(() => {
         :show-detail="showDetail"
         :logo-class="sponsorLogoClass"
       />
+      <TheSponsor
+        :name="$t('sponsors.moway.name')"
+        url="https://www.104.com.tw/company/1a2x6bmtvu"
+        logo="/sponsors/moway.png"
+        :info="$t('sponsors.moway.info')"
+        :show-detail="showDetail"
+        :logo-class="sponsorLogoClass"
+      />
     </div>
 
     <h3>{{ $t('sponsor_level.bronze') }}</h3>
@@ -73,6 +81,14 @@ const sponsorLogoClass = computed(() => {
         url="https://www.tsmc.com/chinese"
         logo="/sponsors/tsmc.png"
         :info="$t('sponsors.tsmc.info')"
+        :show-detail="showDetail"
+        :logo-class="sponsorLogoClass"
+      />
+      <TheSponsor
+        :name="$t('sponsors.mercari.name')"
+        url="https://careers.mercari.com/culturedoc/"
+        logo="/sponsors/mercari.png"
+        :info="$t('sponsors.mercari.info')"
         :show-detail="showDetail"
         :logo-class="sponsorLogoClass"
       />
