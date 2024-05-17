@@ -87,6 +87,9 @@ onMounted(async () => {
         <a href="https://www.tsmc.com/chinese" target="_blank" class="hero-sponsor sponsor-bronze">
           <NuxtImg src="/sponsors/tsmc.png" :height="30" />
         </a>
+        <a href="https://careers.mercari.com/culturedoc/" target="_blank" class="hero-sponsor sponsor-bronze">
+          <NuxtImg src="/sponsors/mercari.png" :height="20" />
+        </a>
       </div>
     </div>
 
