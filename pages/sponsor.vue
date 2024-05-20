@@ -10,8 +10,6 @@ definePageMeta({
       {{ $t('sponsor') }}
     </h2>
 
-    <SponsorButton />
-
     <article class="prose prose-gray max-w-full">
       <TheSponsors show-detail />
     </article>
