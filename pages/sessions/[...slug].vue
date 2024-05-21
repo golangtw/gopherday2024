@@ -38,6 +38,18 @@ useHead({
           {{ doc.time }}
         </div>
 
+        <NuxtLink
+          v-if="doc.hackmd"
+          :to="doc.hackmd"
+          target="_blank"
+          class="not-prose rounded-lg bg-primary/10 text-primary px-3 py-2 flex items-center gap-2 hover:bg-primary/20 transition-all justify-center w-max my-4 cursor-pointer"
+        >
+          <div class="i-tabler:file-text text-lg" />
+          <div class="font-semibold">
+            {{ $t('hackmd') }}
+          </div>
+        </NuxtLink>
+
         <ContentRenderer :value="doc" />
 
         <div class="my-8">
