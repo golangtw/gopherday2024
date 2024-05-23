@@ -1,35 +1,16 @@
 <script setup lang="ts">
-import { Application } from '@splinetool/runtime'
 
-const canvas = ref<HTMLCanvasElement>()
-const showCanvas = ref(false)
 const { y } = useWindowScroll()
 const localePath = useLocalePath()
 const isWindowScrollTop = computed(() => y.value === 0)
 
-onMounted(async () => {
-  if (import.meta.client) {
-    const app = new Application(canvas.value!)
-    await app.load('/scene.splinecode')
-
-    // prevent the blinking of canvas
-    setTimeout(() => {
-      showCanvas.value = true
-    }, 100)
-  }
-})
 </script>
 
 <template>
   <div>
     <div class="w-full <md:py-10 md:h-[calc(100vh-8rem)] flex flex-col">
       <div class="flex flex-1 justify-center items-center">
-        <div class="w-full max-h-[calc(100vh-8rem-20rem)] aspect-[2/1] relative overflow-hidden">
-          <div v-show="!showCanvas" class="absolute top-0 left-0 w-full h-full z-10 flex justify-center">
-            <NuxtImg preload src="/banner.png" />
-          </div>
-          <canvas ref="canvas" :class="{ 'hidden!': !showCanvas}" class="absolute top-0 left-0 w-full h-full z-1 flex justify-center" />
-        </div>
+        <HeroBanner class="max-h-[calc(100vh-8rem-20rem)]" />
       </div>
 
       <div class="md:h-80 flex flex-col items-center">
