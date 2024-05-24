@@ -6,6 +6,8 @@ const router = useRouter()
 router.afterEach(() => {
   showMenu.value = false
 })
+
+const currentYear = new Date().getFullYear()
 </script>
 
 <template>
@@ -82,7 +84,7 @@ router.afterEach(() => {
         </div>
 
         <div class="flex-1 text-gray-300 text-sm text-right">
-          © 2010-2023 Golang Taiwan
+          © 2010-{{ currentYear }} Golang Taiwan
         </div>
       </div>
     </footer>
