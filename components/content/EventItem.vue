@@ -28,11 +28,11 @@ async function querySessionEvent (): Promise<EventData> {
     title: content.title ?? '',
     speaker: content.speaker?.name,
     speakerTitle: content.speaker?.title,
-    url: `/sessions/${props.session}`
+    url: sessionPath
   }
 }
 
-const { data } = useAsyncData(`event/${sessionPath}`, () => querySessionEvent()) // await querySessionEvent() // useAsyncData('session/' + (props.event ?? ''), () => querySessionEvent())
+const data = await querySessionEvent()
 </script>
 
 <template>
