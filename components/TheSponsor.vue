@@ -1,9 +1,8 @@
 <script setup lang="ts">
-defineProps<{
-  name?: string
-  url?: string
-  logo: string
-  info?: string
+import type { Sponsor } from '~/constants/sponsors'
+
+const props = defineProps<{
+  sponsor: Sponsor
   showDetail?: boolean
   logoClass?: string
 }>()
@@ -11,10 +10,15 @@ defineProps<{
 defineOptions({
   inheritAttrs: false
 })
+
+const { locale } = useI18n()
+function st (field: keyof NonNullable<Sponsor['locales']>[string]) {
+  return props.sponsor.locales?.[locale.value]?.[field] ?? props.sponsor[field]
+}
 </script>
 
 <template>
-  <NuxtLink :href="url" :title="name" target="_blank" class="no-underline!">
+  <NuxtLink :href="st('link')" :title="st('name')" target="_blank" class="no-underline!">
     <div
       class="border rounded-lg border-sky-100 hover:border-sky-200"
       v-bind="$attrs"
@@ -26,7 +30,7 @@ defineOptions({
       >
         <div :class="logoClass">
           <NuxtImg
-            :src="logo"
+            :src="`/sponsors/${sponsor.id}.png`"
             height="72"
             fit="contain"
             background="white"
@@ -34,12 +38,12 @@ defineOptions({
           />
         </div>
       </div>
-      <div v-if="showDetail && name" class="py-5 px-6 space-y-3">
+      <div v-if="showDetail && st('name')" class="py-5 px-6 space-y-3">
         <div class="text-sky-600 font-semibold text-2xl">
-          {{ name }}
+          {{ st('name') }}
         </div>
         <div class="text-sky-900 whitespace-break-spaces">
-          {{ info }}
+          {{ st('info') }}
         </div>
       </div>
     </div>

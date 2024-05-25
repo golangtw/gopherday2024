@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { TIERS, getTierSponsors } from '~/constants/sponsors'
+
 const props = defineProps<{
   showDetail?: boolean
 }>()
@@ -10,88 +12,22 @@ const gridClass = computed(() => {
 const sponsorLogoClass = computed(() => {
   return props.showDetail ? 'h-24' : 'h-16 max-w-72'
 })
+
 </script>
 
 <template>
   <div class="my-5">
-    <h3>{{ $t('sponsor_level.platinum') }}</h3>
-    <div class="grid mt-4">
-      <TheSponsor
-        :name="$t('sponsors.iii.name')"
-        url="https://www.iii.org.tw/"
-        logo="/sponsors/iii.png"
-        :info="$t('sponsors.iii.info')"
-        :show-detail="showDetail"
-        :logo-class="sponsorLogoClass"
-      />
-    </div>
-
-    <h3>{{ $t('sponsor_level.gold') }}</h3>
-    <div class="grid mt-4" :class="gridClass">
-      <TheSponsor
-        :name="$t('sponsors.circle.name')"
-        url="https://www.circle.com/"
-        logo="/sponsors/circle.png"
-        :info="$t('sponsors.circle.info')"
-        :show-detail="showDetail"
-        :logo-class="sponsorLogoClass"
-      />
-      <TheSponsor
-        :name="$t('sponsors.iscoollab.name')"
-        url="https://iscoollab.com/"
-        logo="/sponsors/iscoollab.png"
-        :info="$t('sponsors.iscoollab.info')"
-        :show-detail="showDetail"
-        :logo-class="sponsorLogoClass"
-      />
-    </div>
-
-    <h3>{{ $t('sponsor_level.silver') }}</h3>
-    <div class="grid mt-4" :class="gridClass">
-      <TheSponsor
-        :name="$t('sponsors.maicoin.name')"
-        url="https://www.maicoin.com/"
-        logo="/sponsors/maicoin.png"
-        :info="$t('sponsors.maicoin.info')"
-        :show-detail="showDetail"
-        :logo-class="sponsorLogoClass"
-      />
-      <TheSponsor
-        :name="$t('sponsors.dcard.name')"
-        url="https://www.dcard.tw/"
-        logo="/sponsors/dcard.png"
-        :info="$t('sponsors.dcard.info')"
-        :show-detail="showDetail"
-        :logo-class="sponsorLogoClass"
-      />
-      <TheSponsor
-        :name="$t('sponsors.moway.name')"
-        url="https://www.104.com.tw/company/1a2x6bmtvu"
-        logo="/sponsors/moway.png"
-        :info="$t('sponsors.moway.info')"
-        :show-detail="showDetail"
-        :logo-class="sponsorLogoClass"
-      />
-    </div>
-
-    <h3>{{ $t('sponsor_level.bronze') }}</h3>
-    <div class="grid mt-4" :class="gridClass">
-      <TheSponsor
-        :name="$t('sponsors.tsmc.name')"
-        url="https://www.tsmc.com/chinese"
-        logo="/sponsors/tsmc.png"
-        :info="$t('sponsors.tsmc.info')"
-        :show-detail="showDetail"
-        :logo-class="sponsorLogoClass"
-      />
-      <TheSponsor
-        :name="$t('sponsors.mercari.name')"
-        url="https://careers.mercari.com/culturedoc/"
-        logo="/sponsors/mercari.png"
-        :info="$t('sponsors.mercari.info')"
-        :show-detail="showDetail"
-        :logo-class="sponsorLogoClass"
-      />
-    </div>
+    <template v-for="tier in TIERS" :key="tier">
+      <h3>{{ $t(`sponsor_level.${tier}`) }}</h3>
+      <div class="grid mt-4" :class="tier === 'platinum' ? '' : gridClass">
+        <TheSponsor
+          v-for="sponsor in getTierSponsors(tier)"
+          :key="sponsor.name"
+          :sponsor="sponsor"
+          :show-detail="showDetail"
+          :logo-class="sponsorLogoClass"
+        />
+      </div>
+    </template>
   </div>
 </template>
