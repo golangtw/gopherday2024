@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { groups } from '~/constants/team'
+import { GROUPS } from '~/constants/team'
 
 definePageMeta({
   title: 'team'
@@ -12,7 +12,7 @@ definePageMeta({
       {{ $t('team') }}
     </h2>
     <div class="grid flex-col gap-6">
-      <div v-for="group in groups" :key="group.name">
+      <div v-for="group in GROUPS" :key="group.name">
         <h3 class="text-gray-300 font-semibold mb-3">
           <div v-if="group.name" class="text-gradient-primary op-80">
             {{ $t("teams." + group.name) }}

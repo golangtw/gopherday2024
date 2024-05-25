@@ -11,7 +11,7 @@ export interface Group {
   isRecruiting?: boolean;
 }
 
-export const groups: Group[] = [
+export const GROUPS: Group[] = [
   {
     name: 'general_coordinator',
     members: [
